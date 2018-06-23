@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <com.tagakov.timerview.TimeView
+        android:id="@+id/start_screen_clock"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+    <TextView
+        android:id="@+id/start_screen_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hello @username!"
+        android:text="Hello @username!"
+        />
+
+    <Button
+        android:id="@+id/start_screen_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/go_to_picture"
+        />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+include ':app', ':common',
+        ':feature-startscreen',
+        ':feature-userscreen',
+
+        ':celebrity-hidden-userapi',
+
+        ':celebrity-timeview',
+        ':celebrity-timeview:timeview-sample',
+
+        ':celebrity-timelogic',
+        ':celebrity-timelogic:timelogic-api',
+        ':celebrity-timelogic:timelogic-implementation'
